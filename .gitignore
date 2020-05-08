@@ -4,3 +4,14 @@
 /project-mbg/target/
 /project-oauth/target/
 /project-pay/target/
+project-common/src/main/resources/
+project-common/src/test/
+project-gateway/src/main/java/com/demo/gateway/config/
+project-gateway/src/test/
+project-login/src/test/
+project-mbg/src/test/
+project-oauth/src/test/
+project-pay/src/test/
+
+*.iml
+.idea
