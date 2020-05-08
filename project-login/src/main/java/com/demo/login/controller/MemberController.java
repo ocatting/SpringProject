@@ -96,4 +96,15 @@ public class MemberController extends BaseController{
         return CommonResult.failed();
     }
 
+    /**
+     * 单点登录
+     * @return
+     */
+    @PostMapping("/oauthLogin")
+    public CommonResult oauthLogin(){
+
+
+        return CommonResult.failed();
+    }
+
 }

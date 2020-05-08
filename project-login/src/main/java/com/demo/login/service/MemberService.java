@@ -1,5 +1,6 @@
 package com.demo.login.service;
 
+import com.demo.common.TokenInfo;
 import com.demo.common.exception.BusinessException;
 import com.demo.login.domain.UmsMember;
 import com.demo.login.domain.vo.RegisterVo;
@@ -34,4 +35,13 @@ public interface MemberService {
      * @throws BusinessException
      */
     UmsMember login(String username, String password)throws BusinessException;
+
+    /**
+     * 单点登录方式
+     * @param username
+     * @param password
+     * @return
+     * @throws BusinessException
+     */
+    TokenInfo oauthLogin(String username, String password)throws BusinessException;
 }
