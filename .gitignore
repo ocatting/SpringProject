@@ -1,0 +1,6 @@
+# Project exclude paths
+/project-common/target/
+/project-login/target/
+/project-mbg/target/
+/project-oauth/target/
+/project-pay/target/
