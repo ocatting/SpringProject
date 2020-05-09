@@ -10,6 +10,7 @@
         <module>project-pay</module>
         <module>project-oauth</module>
         <module>project-gateway</module>
+        <module>project-gateway-rateLimiter</module>
     </modules>
 
     <groupId>org.example</groupId>
@@ -140,6 +141,13 @@
                <artifactId>jjwt</artifactId>
                <version>${jjwt.version}</version>
            </dependency>
+
+           <dependency>
+               <groupId>com.alibaba</groupId>
+               <artifactId>fastjson</artifactId>
+               <version>1.2.68</version>
+           </dependency>
+
        </dependencies>
    </dependencyManagement>
 

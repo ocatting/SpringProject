@@ -12,6 +12,9 @@ project-login/src/test/
 project-mbg/src/test/
 project-oauth/src/test/
 project-pay/src/test/
+project-gateway-rateLimiter/target/generated-sources/
+project-gateway/target/generated-sources/
 
 *.iml
 .idea
+
