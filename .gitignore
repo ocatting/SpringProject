@@ -18,3 +18,6 @@ project-gateway/target/generated-sources/
 *.iml
 .idea
 
+project-gateway/target/classes/
+project-rabbit-dts/src/test/
+project-rabbit-dts/target/generated-sources/
