@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "gateway.limiter",
+      "type": "com.demo.gateway.properties.LimiterProperties",
+      "sourceType": "com.demo.gateway.properties.LimiterProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "gateway.limiter.check-action-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.demo.gateway.properties.LimiterProperties",
+      "defaultValue": 100
+    },
+    {
+      "name": "gateway.limiter.policy-map",
+      "type": "java.util.Map<java.lang.String,com.demo.gateway.properties.LimitingPolicy>",
+      "sourceType": "com.demo.gateway.properties.LimiterProperties"
+    },
+    {
+      "name": "gateway.limiter.redis-key-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.demo.gateway.properties.LimiterProperties",
+      "defaultValue": "#Gateway_RL"
+    }
+  ],
+  "hints": []
+}

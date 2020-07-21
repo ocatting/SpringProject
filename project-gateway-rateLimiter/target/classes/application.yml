@@ -1,0 +1,11 @@
+gateway:
+  limiter:
+    policyMap:
+      api-a:
+        matchUrl: /sso/**
+        timeUnit: SECONDS
+        permits: 2
+      api-b:
+        matchUrl: /test/**
+        timeUnit: MINUTES
+        permits: 2

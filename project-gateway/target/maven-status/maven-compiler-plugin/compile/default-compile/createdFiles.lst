@@ -1,0 +1,6 @@
+com\demo\gateway\GateWayApplication.class
+com\demo\gateway\util\JwtUtils.class
+com\demo\gateway\properties\GateWayNotAuthUrlProperties.class
+com\demo\gateway\exception\GateWayException.class
+META-INF\spring-configuration-metadata.json
+com\demo\gateway\filter\AuthorizationFilter.class

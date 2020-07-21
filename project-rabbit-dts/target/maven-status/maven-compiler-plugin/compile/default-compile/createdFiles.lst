@@ -1,0 +1,2 @@
+com\ts\EnableDtsRabbit.class
+com\ts\exception\RabbitRepeatDataException.class
