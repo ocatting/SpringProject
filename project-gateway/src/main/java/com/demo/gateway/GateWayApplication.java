@@ -12,8 +12,8 @@ public class GateWayApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(GateWayApplication.class,args);
-        System.out.println("I am dev");
-        System.out.println("dev");
+        System.out.println("I am git dev");
+        System.out.println("dev and test's environment Merge in the Git !");
     }
 
 }
