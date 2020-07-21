@@ -47,6 +47,8 @@ member:
     shouldSkipUrls:
       - /sso/**
       - /home/**
+      - /order/**
+      - /orderTest/**
 
 #jwt config
 jwt:

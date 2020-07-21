@@ -17,6 +17,7 @@ import java.util.Map;
 
 /**
  * @Description: @Validated 参数校验
+ * MethodArgumentNotValidException 这种异常捕捉只会捕捉到 requestBody中的数据
  * @Author Yan XinYu
  **/
 @Validated
@@ -32,6 +33,16 @@ public class MemberController extends BaseController{
 
     @Autowired
     private JwtProperties jwtProperties;
+
+    @RequestMapping("/h")
+    public CommonResult h(@Validated @NotBlank String h){
+        return CommonResult.success(h);
+    }
+
+    @RequestMapping("/c")
+    public CommonResult c(@Validated @RequestBody @NotBlank String c){
+        return CommonResult.success(c);
+    }
 
     /**
      * 动态获取手机验证码

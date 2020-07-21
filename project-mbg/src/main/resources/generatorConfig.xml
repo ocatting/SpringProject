@@ -39,7 +39,7 @@
         <!--生成全部表tableName设为%,指定前缀ums_%-->
         <table tableName="ums_member" enableCountByExample="true" enableUpdateByExample="true"
                enableDeleteByExample="true" enableSelectByExample="true"
-               selectByExampleQueryId="true">
+               selectByExampleQueryId="true" >
             <!-- generatedKey用于生成生成主键的方法，
             如果设置了该元素，MBG会在生成的<insert>元素中生成一条正确的<selectKey>元素，该元素可选
             column:主键的列名；
